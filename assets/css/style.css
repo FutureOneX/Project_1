@@ -1,0 +1,96 @@
+*   {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: "Cinzel";
+    src: url(../fonts/Cinzel-Regular.ttf);
+}
+
+@font-face {
+    font-family: "poppins";
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
+.header h2{
+    font-family: "Cinzel";
+    color: #999;
+    font-weight: 100;
+    margin:10px 50px;
+}
+
+h1  {
+    padding: 300px;
+    background-image: url(../img/photo-1486312699619-be057cfc0342.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-family: "Cinzel";
+    font-size: 50px;
+}
+
+article {
+    text-align: center;
+}
+
+.Main__TEXT h2 { 
+    font-family: "Cinzel";
+    padding: 90px;
+    color: #333;
+    font-weight: 90px;
+}
+
+.Main__TEXT p   {
+    font-family: "poppins";
+    padding-bottom: 90px;
+    margin: 0 250px;
+}
+
+.st__PICS img {
+    display: inline-block;
+    margin: 0 30px;
+}
+
+.nd__PICS img {
+    display: inline-block;
+    margin: 50px 30px;
+}
+
+ul li   {
+    text-align: left;
+    margin-left: 250px;
+    margin-bottom: 30px;
+    list-style: none;
+    font-family: "poppins";
+}
+
+.RED    {
+    color: red;
+    margin-left: 9px;
+}
+
+.GREEN  {
+    color: green;
+    margin-left: 9px;
+}
+
+footer  {
+    border-top: 1px solid #ccc;
+    text-align: center;
+    font-family: "Cinzel";
+    padding: 10px;
+}
+
+.SocialMedia li   {
+    list-style: none;
+    display: inline-block;
+    margin: 5px;
+}
+
+li img  {
+    width: 30px;
+}
